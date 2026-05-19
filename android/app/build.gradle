@@ -1,0 +1,18 @@
+plugins {
+    id "com.android.application"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"
+}
+
+android {
+    namespace "com.geopulse.ai"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.geopulse.ai"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+}

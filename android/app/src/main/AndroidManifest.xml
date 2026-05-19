@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://google.com"
+    package="com.geopulse.ai">
+
+    <!-- Permisos obligatorios de GPS para detectar los baches en la calle -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="GeoPulse AI"
+        android:icon="@mipmap/ic_launcher">
+        
+        <!-- Llave secreta del SDK de Google Maps -->
+        <meta-data 
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCGj8O97Ed1Zjrl6_2_SQgr-V_NG6QBEyk" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/LaunchTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
