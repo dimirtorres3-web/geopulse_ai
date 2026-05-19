@@ -1,0 +1,134 @@
+// !$UTF8$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		/* Begin PBXBuildFile section */
+		1498D2341E8E892200D01748 /* AppDelegate.swift in Sources / = {isa = PBXBuildFile; fileRef = 1498D2331E8E892200D01748 / AppDelegate.swift */; };
+		/* End PBXBuildFile section */
+
+		/* Begin PBXFileReference section */
+		1498D2331E8E892200D01748 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		/* End PBXFileReference section */
+
+		/* Begin PBXGroup section */
+		97C146E51A1AD1A2000C1B00 = {
+			isa = PBXGroup;
+			children = (
+				1498D2321E8E866D00D01748 /* Runner */,
+			);
+			sourceTree = "<group>";
+		};
+		1498D2321E8E866D00D01748 /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				1498D2331E8E892200D01748 /* AppDelegate.swift */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		/* End PBXGroup section */
+
+		/* Begin PBXProject section */
+		97C146E61A1AD1A2000C1B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1510;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					97C146ED1A1AD1A2000C1B00 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = "";
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 97C146E91A1AD1A2000C1B00 /* Build configuration list for PBXProject "Runner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97C146E51A1AD1A2000C1B00;
+			productRefGroup = 97C146E51A1AD1A2000C1B00;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97C146ED1A1AD1A2000C1B00 /* Runner */,
+			);
+		};
+		/* End PBXProject section */
+
+		/* Begin PBXSourcesBuildPhase section */
+		97C146EA1A1AD1A2000C1B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1498D2341E8E892200D01748 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		/* End PBXSourcesBuildPhase section */
+
+		/* Begin PBXVariantGroup section */
+		/* End PBXVariantGroup section */
+
+		/* Begin XCBuildConfiguration section */
+		97C147031A1AD1A2000C1B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Runner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geopulse.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		97C147041A1AD1A2000C1B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Runner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geopulse.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		/* End XCBuildConfiguration section */
+
+		/* Begin XCConfigurationList section */
+		97C146E91A1AD1A2000C1B00 /* Build configuration list for PBXProject "Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C147031A1AD1A2000C1B00 /* Debug */,
+				97C147041A1AD1A2000C1B00 /* Release */,
+			);
+			defaultConfigurationName = Release;
+			defaultConfigurationIsVisible = 0;
+		};
+		/* End XCConfigurationList section */
+	};
+	rootObject = 97C146E61A1AD1A2000C1B00 /* Project object */;
+}
