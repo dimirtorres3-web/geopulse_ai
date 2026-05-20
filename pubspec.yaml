@@ -90,3 +90,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev
+
+dependency_overrides:
+  term_glyph: ^1.2.1
