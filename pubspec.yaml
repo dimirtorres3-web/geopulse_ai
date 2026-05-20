@@ -93,3 +93,8 @@ flutter:
 
 dependency_overrides:
   term_glyph: ^1.2.1
+  string_scanner: ^1.4.1
+  test_api: ^0.7.11
+  typed_data: ^1.4.0
+  vector_math: ^2.2.0
+  web: ^1.1.1
